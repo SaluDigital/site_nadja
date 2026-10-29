@@ -65,7 +65,7 @@
     #hero-inner h1{font-size:clamp(25px,6.4vw,32px)!important}
     #hero-inner p{max-width:100%!important}
     #hero-inner a{max-width:100%!important;padding:17px 16px!important;font-size:9.5px!important;line-height:1.35!important;white-space:normal!important}
-    #hero-media img{object-position:calc(50% - 240px) 68%!important}
+    #hero-media{background-position:calc(50% - 240px) 68%!important}
     #cta-inner{width:60vw!important;max-width:60vw!important;margin:0 auto 0 0!important;padding:76px 0 72px clamp(20px,5vw,56px)!important}
     #cta-content{max-width:100%!important}
     #cta-content h2{font-size:clamp(25px,6.4vw,32px)!important}
@@ -309,9 +309,7 @@
 </div>
 
 <section id="inicio" style="position:relative;min-height:min(100vh,940px);height:92vh;display:flex;align-items:center;overflow:hidden;background:#0B0B0B;scroll-margin-top:80px">
-  <div id="hero-media" data-reveal="zoom" style="position:absolute;inset:0">
-    <img src="./assets/hero3.webp" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:cover;object-position:center 68%;display:block" />
-  </div>
+  <div id="hero-media" data-reveal="zoom" aria-hidden="true" style="position:absolute;inset:0;background-image:url('./assets/hero.jpeg');background-size:cover;background-position:center 68%;background-repeat:no-repeat"></div>
   <div id="hero-inner" style="position:relative;width:100%;max-width:1340px;margin:0 auto;padding:clamp(96px,12vh,132px) clamp(20px,5vw,56px) clamp(52px,7vh,92px);pointer-events:none">
     <div style="display:block">
       <div style="max-width:760px">
